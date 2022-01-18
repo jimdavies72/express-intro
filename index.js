@@ -9,6 +9,8 @@ const marketingRouter = require("./routes/marketing");
 const dataRouter = require("./routes/data");
 const errorRouter = require("./routes/error");
 
+// causes the app to expect json specifically. must be the first use
+app.use(express.json());
 app.use("/", indexRouter);
 app.use("/accounting", accountingRouter);
 app.use("/marketing", marketingRouter);
