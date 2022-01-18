@@ -13,6 +13,7 @@ app.use("/", indexRouter);
 app.use("/accounting", accountingRouter);
 app.use("/marketing", marketingRouter);
 app.use("/data", dataRouter);
+// "*" must be the last in the list. routes are worked out top to bottom
 app.use("*", errorRouter);
 
 app.listen(process.env.HTTP_PORT, () => {
