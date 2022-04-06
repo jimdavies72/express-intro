@@ -1,6 +1,4 @@
 const router = require("express").Router();
-const getRandomInt = require("../src/tools");
-const catNames = require("cat-names");
 
 let staff = [
   { name: "bob", age: 34 },

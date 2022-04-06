@@ -1,3 +1,6 @@
+//const getRandomInt = require("../src/tools");
+//const catNames = require("cat-names");
+
 // not needed
 
 // router.get("/:name", (req, res) => {
